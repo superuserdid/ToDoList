@@ -1,8 +1,8 @@
 # ToDoList
 A simple ToDoList application that makes use of an SQLlite database in Android, along with new features of the support library.
 
-Build instructions:
-1. Compile gradle project with minimum SDK version 14 and maximum SDK version 22 and build tools 22.0.1
+Build instructions:</br>
+1. Compile gradle project with minimum SDK version 14 and maximum SDK version 22 and build tools 22.0.1 </br>
 2. Run the project.
 
 This project simply allows you to create a ToDo list and manage that todo list through updating and deleting. When your ToDo entry 
