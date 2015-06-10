@@ -191,8 +191,6 @@ public class ToDoListDatabase extends SQLiteOpenHelper {
 
         db.update(TABLE_TODO_LIST, values, COLUMN_ID + " = ?",
                 new String[]{String.valueOf(toDo.getId())});
-
-       getAllToDos();
     }
 
     /**
@@ -225,4 +223,13 @@ public class ToDoListDatabase extends SQLiteOpenHelper {
         return toDo;
     }
 
+
+    /**
+     * Get the current version of the database.
+     *
+     * @return - the database version.
+     */
+    public int getDatabaseVersion(){
+        return DATABASE_VERSION;
+    }
 }
